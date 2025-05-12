@@ -97,8 +97,8 @@ function initTextures(callback) {
   skyImg.onload = () => { loadTexture(skyImg, 0); if (++count === 2) callback(); };
   dirtImg.onload = () => { loadTexture(dirtImg, 1); if (++count === 2) callback(); };
 
-  skyImg.src = "textures/sky.jpg";
-  dirtImg.src = "textures/dirt.jpg";
+  skyImg.src = "sky.jpg";
+  dirtImg.src = "dirt.jpg";
 }
 
 function loadTexture(image, unit) {
